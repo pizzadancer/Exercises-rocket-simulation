@@ -27,7 +27,12 @@
       </select>
     </label>
     <label>Number of Rocket Boosters<input type="number" name="boosterCount" min="1" max="9" /> </label>
-    <label>Wind Rating <input type="radio" name="windRating" /></label>
+    Wind Rating
+    <label>No Wind <input type="radio" name="windRating" value="0" /></label>
+    <label>Mild <input type="radio" name="windRating" value="10" /></label>
+    <label>Strong <input type="radio" name="windRating" value="20" /></label>
+
+    <!-- No Wind: with value 0, Mild: with value 10, Strong: with value 20 -->
     <button>Run Simulation</button>
   </form>
   <!-- Add a <label> and <input> for Test Name to the <form>. -->
