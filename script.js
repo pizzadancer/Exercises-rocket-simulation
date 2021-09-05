@@ -1,7 +1,7 @@
 function init () {
   let form = document.querySelector("form");
   form.addEventListener("submit", function(event) {
-    alert("submit")
+    alert("baba booey");
   })
 
 }
